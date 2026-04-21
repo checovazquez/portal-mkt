@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal TradeMKT</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="https://raw.githubusercontent.com/checovazquez/GanaConMASECA/refs/heads/main/images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="hub-header">
+    <div class="hub-logo-wrap">
+      <img
+        src="assets/logo_maseca.png"
+        alt="Logo MASECA"
+      />
+    </div>
+    <div class="hub-header-text">
+      <h1>Portal Trade MKT</h1>
+      <p>Dinamicas y activaciones para eventos</p>
+    </div>
+  </header>
+
+  <!-- BODY -->
+  <main class="hub-body">
+    <p class="hub-section-label">Juegos disponibles</p>
+
+    <div class="hub-grid" id="games-grid">
+
+      <!-- Gana con MASECA -->
+      <a class="game-card" style="--accent:#FFD200; --icon-bg:#fffbe6;" href="https://checovazquez.github.io/GanaConMASECA/" target="_blank" rel="noopener">
+        <div class="card-icon">
+          <svg viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <circle cx="14" cy="14" r="12" stroke="#00843D" stroke-width="2"/>
+            <circle cx="14" cy="14" r="4" fill="#FFD200"/>
+            <line x1="14" y1="2"  x2="14" y2="7"  stroke="#00843D" stroke-width="2" stroke-linecap="round"/>
+            <line x1="14" y1="21" x2="14" y2="26" stroke="#00843D" stroke-width="2" stroke-linecap="round"/>
+            <line x1="2"  y1="14" x2="7"  y2="14" stroke="#00843D" stroke-width="2" stroke-linecap="round"/>
+            <line x1="21" y1="14" x2="26" y2="14" stroke="#00843D" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Gana con MASECA</h2>
+        <p class="card-desc">Ruleta de premios con control de ganadores, registro de participaciones y panel admin con PIN.</p>
+        <div class="card-tags">
+          <span class="tag">Ruleta</span>
+          <span class="tag">Premios</span>
+          <span class="tag">Admin</span>
+        </div>
+        <span class="card-cta">Abrir juego &rarr;</span>
+      </a>
+
+      <!-- Rompe-MASECAS -->
+      <a class="game-card" style="--accent:#00843D; --icon-bg:#e8f5ee;" href="https://checovazquez.github.io/rompe-cabezas/" target="_blank" rel="noopener">
+        <div class="card-icon">
+          <svg viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <rect x="3"  y="3"  width="10" height="10" rx="2" fill="#00843D"/>
+            <rect x="15" y="3"  width="10" height="10" rx="2" fill="#FFD200" stroke="#00843D" stroke-width="1.5"/>
+            <rect x="3"  y="15" width="10" height="10" rx="2" fill="#FFD200" stroke="#00843D" stroke-width="1.5"/>
+            <rect x="15" y="15" width="10" height="10" rx="2" fill="#00843D"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Rompe-MASECAS</h2>
+        <p class="card-desc">Puzzle de productos con registro por celular, countdown de 10 s para memorizar y ranking Top 20.</p>
+        <div class="card-tags">
+          <span class="tag">Puzzle</span>
+          <span class="tag">Ranking</span>
+          <span class="tag">Timer</span>
+        </div>
+        <span class="card-cta">Abrir juego &rarr;</span>
+      </a>
+
+      <!-- Proximo juego (placeholder) -->
+      <a class="game-card card-coming" style="--accent:#ccc; --icon-bg:#f5f5f5;" href="#" tabindex="-1" aria-disabled="true">
+        <span class="coming-badge">Pronto</span>
+        <div class="card-icon">
+          <svg viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <rect x="4" y="8" width="20" height="14" rx="3" stroke="#bbb" stroke-width="2"/>
+            <path d="M9 8V6a5 5 0 0 1 10 0v2" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Proximo juego</h2>
+        <p class="card-desc">Espacio reservado para la siguiente dinamica de activacion MASECA.</p>
+        <div class="card-tags"><span class="tag">En desarrollo</span></div>
+        <span class="card-cta">Disponible pronto</span>
+      </a>
+
+    </div>
+
+    <footer class="hub-footer">
+      <span class="hub-footer-brand">MASECA Autoservicios &mdash; Trade MKT 2026</span>
+      <span class="hub-footer-dot"></span>
+    </footer>
+  </main>
+
+</body>
+</html>
