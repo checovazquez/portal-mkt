@@ -36,4 +36,8 @@ maseca-portal-mkt/
 
 Este repo usa GitHub Pages. Activa Pages desde **Settings > Pages > Branch: main / root**.
 
+<<<<<<< HEAD
 La URL quedara en: `https://checovazquez.github.io/portal-mkt/`
+=======
+La URL quedara en: `https://checovazquez.github.io/maseca-portal-mkt/`
+>>>>>>> c32924b95990b4770c68d8aff464d66ae405775e
